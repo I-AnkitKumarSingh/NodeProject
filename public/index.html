@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hodlin - Crypto Data</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="head">
+    <h1>HODLINFO</h1>
+    <br><br>
+    <button class="inr">INR <i class="fa-solid fa-caret-down"></i></button>
+    <select name="bitcoin" id="bitcoin">
+      <option value="BTC">BTC</option>
+      <option value="ETH">ETH</option>
+      <option value="USDT">USDT</option>
+      <option value="XRP">XRP</option>
+      <option value="TRX">TRX</option>
+      <option value="DASH">DASH</option>
+      <option value="ZEC">ZEC</option>
+      <option value="XEM">XEM</option>
+      <option value="IOST">IOST</option>
+      <option value="WIN">WIN</option>
+      <option value="BTT">BTT</option>
+      <option value="WRX">WRX</option>
+    </select>
+
+    <button class="butt">BUY BTC</button>
+  </div>
+  <br><br>
+  <center>
+  <button onclick="window.location.href = 'tele.html';"  class="teleg"> <i class="fa-brands fa-telegram fa-lg" style="color: #393e46;"></i>Connect Telegram</button>
+  </center>
+  <br>
+  <center>
+  <table id="crypto-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Last Price</th>
+        <th>Buy Price</th>
+        <th>Sell Price</th>
+        <th>Volume</th>
+        <th>Base Unit</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</center>
+
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: rgb(102, 101, 101);
+    }
+    </style>
+    
+    <div class="footer">
+      <p>Copyright © 2019   HodlInfo.com</p>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

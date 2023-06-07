@@ -1,5 +1,6 @@
 # NodeProject
 setup:
+(for node_modules)
 -Run "git install" in your IDE terminal or command prompt, after downloading the zip file and extracting it in your desired folder. 
 
 Working:
